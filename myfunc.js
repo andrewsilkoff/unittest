@@ -12,6 +12,8 @@ function testFunc(str, callbackFunc){
 		callbackFunc(result);
 	},1000);
 
+	return
+
 };
 
 
