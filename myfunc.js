@@ -5,7 +5,7 @@ function testFunc(str, callbackFunc){
 			
 	};
 	if(str.indexOf(",") == -1){
-		throw new Error("Argument should contain a string with commas");
+		throw new Error("Argument should contain a string with commas!!!");
 	};
 	setTimeout(function(){
 		var result = str.split(",");
